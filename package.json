@@ -1,6 +1,6 @@
 {
   "name": "blackjack-ts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Blackjack engine written in typescript",
   "main": "lib/index.js",
   "keywords": [
