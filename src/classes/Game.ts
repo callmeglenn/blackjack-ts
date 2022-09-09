@@ -22,6 +22,7 @@ export default class Game {
 			else return GameState.Dealer_Win;
 		}
 		if (this.player.state == PlayerState.Blackjack) return GameState.Player_Win;
+		if (this.player.state == PlayerState.Over21) return GameState.Dealer_Win;
 		if (this.player.stand) {
 			if (this.dealer.values.value > 21) return GameState.Player_Win;
 			if (this.player.values.value == this.dealer.values.value) return GameState.Draw;
