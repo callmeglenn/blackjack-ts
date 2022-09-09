@@ -14,6 +14,7 @@
     "url": "https://github.com/callmeglenn/blackjack.ts"
   },
   "dependencies": {
+    "blackjack-ts": "github:callmeglenn/blackjack-ts",
     "fast-shuffle": "^5.0.2",
     "random": "^3.0.6"
   }
