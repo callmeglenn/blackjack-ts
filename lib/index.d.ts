@@ -5,4 +5,4 @@ declare const Blackjack: {
     PlayerState: typeof PlayerState;
     GameState: typeof GameState;
 };
-export default Blackjack;
+export = Blackjack;
