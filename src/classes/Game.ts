@@ -31,7 +31,7 @@ export default class Game {
 		}
 		return GameState.Ongoing; 
 	}
-	public getPayout(): number | null {
+	public get payout(): number | null {
 		let result: number | null = null;
 		if (this.state != GameState.Ongoing) {
 			if (this.state == GameState.Draw) result = this.bet;

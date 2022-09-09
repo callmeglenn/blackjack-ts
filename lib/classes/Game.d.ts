@@ -10,7 +10,7 @@ export default class Game {
     bj_mult: number;
     constructor(params: BlackjackParams);
     get state(): GameState;
-    getPayout(): number | null;
+    get payout(): number | null;
     hit(): void;
     stand(): void;
     deal(): void;
