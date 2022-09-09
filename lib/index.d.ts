@@ -1,4 +1,4 @@
-import * as Game from './classes/Game';
+import Game from './classes/Game';
 import { PlayerState, GameState } from './typings/types';
 declare const Blackjack: {
     Game: typeof Game;
