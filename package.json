@@ -1,0 +1,20 @@
+{
+  "name": "blackjack-ts",
+  "version": "0.0.0",
+  "description": "Blackjack engine written in typescript",
+  "main": "lib/index.js",
+  "keywords": [
+    "blackjack",
+    "gambling"
+  ],
+  "author": "glenn.mt",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callmeglenn/blackjack.ts"
+  },
+  "dependencies": {
+    "fast-shuffle": "^5.0.2",
+    "random": "^3.0.6"
+  }
+}
